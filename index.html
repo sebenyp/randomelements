@@ -391,6 +391,7 @@
             controls.minDistance = 500;
             controls.maxDistance = 6000;
             controls.addEventListener('change', render);
+            controls.noPan = true;
 
             var button = document.getElementById('table');
             button.addEventListener('click', function (event) {
