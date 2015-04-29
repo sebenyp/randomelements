@@ -31,5 +31,3 @@ function ertek(pUser, pFormID, pData) {
     data = data1 + data2;
     ShowChosenPeriodicElement();
 }
-
-getData();
